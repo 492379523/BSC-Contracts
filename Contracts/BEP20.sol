@@ -443,9 +443,9 @@ contract PausableToken is StandardToken, Pausable {
 
 contract BEP20Token is PausableToken, MintableToken {
     // public variables
-    string public name = "ABC Token";
-    string public symbol = "ABC";
-    uint8 public decimals = 18;
+    string public name = "TANKI COIN";
+    string public symbol = "TNO";
+    uint8 public decimals = 17;
 
     constructor() public {
         totalSupply_ = 10000 * (10 ** uint256(decimals));
